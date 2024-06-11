@@ -4,7 +4,7 @@ matplotlib==3.3.2
 vpython==7.6.1
 gpytorch==1.2.0
 dill==0.3.2
-numpy==1.19.2
+numpy==1.21.6
 scipy==1.5.2
 addict==2.3.0
 pybullet==3.1.7
