@@ -1,6 +1,4 @@
 cython==3.0.10
-torch==1.6.0
-torch_cluster==1.5.7
 tqdm==4.48.2
 matplotlib==3.3.2
 vpython==7.6.1
