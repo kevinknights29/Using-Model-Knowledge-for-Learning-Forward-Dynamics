@@ -22,6 +22,7 @@ RUN apt-get update \
     libblas3 \
     liblapack3 \
     libatlas-base-dev \
+    libx11-dev \
     && apt-get clean
 
 # Set the working directory to /opt/app
@@ -37,5 +38,5 @@ COPY install_dependencies.sh install_torch_dependencies.sh ./
 COPY requirements.txt torch-requirements.txt ./
 
 # Install dependencies from the requirements file
-RUN ./install_dependencies.sh ./requirements.txt
+RUN ./install_dependencies.sh ./requirements.txt &
 
