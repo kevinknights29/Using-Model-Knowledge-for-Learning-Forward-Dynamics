@@ -9,4 +9,4 @@ scipy==1.5.2
 addict==2.3.0
 pybullet==3.1.7
 PyYAML==5.4.1
-pre-commit==3.7.0
+pre-commit==2.21.0
