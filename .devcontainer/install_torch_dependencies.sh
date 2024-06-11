@@ -7,13 +7,10 @@ if [ -z "$1" ]; then
 fi
 
 # Set the path of the requirements.txt file
-REQUIREMENTS_FILE=$1
-
-# Initialize the virtual environment
-python -m venv .venv
+TORCH_REQUIREMENTS_FILE=$1
 
 # Activate the virtual environment
 source ./.venv/bin/activate
 
 # Install the Python packages
-pip install -r $REQUIREMENTS_FILE
+pip install -r $TORCH_REQUIREMENTS_FILE -f
