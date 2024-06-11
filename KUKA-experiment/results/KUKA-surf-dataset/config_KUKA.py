@@ -30,8 +30,8 @@ class ControlMode(Enum):
 """ ---- Log config ----"""
 log = Dict()
 log.saveSimResults = True
-log.saveImages = False
-log.showImages = True
+log.saveImages = True
+log.showImages = False
 log.saveVideo = False
 log.dpi = 300  # image resolution
 log.resultsFolder = pwd  # main folder where results will be saved
