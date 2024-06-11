@@ -31,10 +31,10 @@ WORKDIR /opt/app
 RUN pip install --upgrade pip
 
 # Copy the installation script
-COPY install_dependencies.sh .
+COPY install_dependencies.sh install_torch_dependencies.sh ./
 
 # Copy the requirements file
-COPY requirements.txt .
+COPY requirements.txt torch-requirements.txt ./
 
 # Install dependencies from the requirements file
 RUN ./install_dependencies.sh ./requirements.txt
