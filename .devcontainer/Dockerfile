@@ -39,5 +39,5 @@ COPY requirements.txt torch-requirements.txt ./
 
 # Install dependencies from the requirements file
 RUN ./install_dependencies.sh ./requirements.txt \
-    && install_torch_dependencies.sh ./torch-requirements.txt
+    && ./install_torch_dependencies.sh ./torch-requirements.txt
 
