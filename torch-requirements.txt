@@ -1,2 +1,2 @@
 torch==1.7.1
-torch_cluster==1.5.7
+torch_cluster==1.5.8
