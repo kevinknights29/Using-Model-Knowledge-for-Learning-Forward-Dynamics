@@ -32,6 +32,8 @@
     },
     "runArgs": [
         "--env-file",
-        ".devcontainer/devcontainer.env"
+        ".devcontainer/devcontainer.env",
+        "--gpus",
+        "all"
     ]
 }
